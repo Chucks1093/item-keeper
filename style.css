@@ -7,10 +7,13 @@
 body{
     height: 100vh;
     background-color: #181a1e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.body{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .grocery-card{
@@ -142,8 +145,8 @@ body{
 }
 
 .comment{
-    position: absolute;
-    bottom: 4%;
+    text-align: center;
+    margin-top: 2rem;
     color: #a2a3ac;
 }
 
