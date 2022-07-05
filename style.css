@@ -9,13 +9,16 @@ body{
     background-color: #181a1e;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .grocery-card{
     width: 80%;
+    margin-top: 4rem;
+    min-width: 19.5rem;
     max-width: 35rem;
+    min-height: 30vh;
     text-align: center;
     border-radius: 20px;
     background-color: #202528;
@@ -25,7 +28,7 @@ body{
 
 .grocery-card input{
     height: 1.8rem;
-    width: 35%;
+    width: 50%;
     border-radius: 4px 0px 0px 4px;
     border: none;
     text-align: center;
@@ -48,14 +51,11 @@ body{
 .grocery-card form {
     display: flex;
     justify-content: center;
-
     margin: 1rem 0;
 }
 .grocery-card h1{
     margin-top: 3rem;
-
     color: #edeffd;
-
 }
 .grocery-card .item {
     display: flex;
@@ -70,7 +70,6 @@ body{
     font-size: 1.3rem;
     text-transform: capitalize;
     color: #edeffd;
-
 }
 
 .grocery-card .info{

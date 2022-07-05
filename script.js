@@ -11,6 +11,7 @@ let editElement ;
 let editButton ;
 let editID='';
 
+
 function loadItems() {
     let items = getLocalStorage();
     items.forEach(item=>{
@@ -23,8 +24,8 @@ function createItems(value,id) {
     const element = document.createElement('div')
     element.innerHTML = `<p>${value}</p>
     <div class="btn-container">
-    <button class="edit-btn"><i class="eva eva-edit-outline"></i></button>
-    <button class="delete-btn"><i class="eva eva-archive-outline"></i></button>
+    <button class="edit-btn"><i class="lni lni-pencil"></i></button>
+    <button class="delete-btn"><i class="lni lni-archive"></i</button>
     </div>`
     const attr = document.createAttribute("data-id")
     attr.value = id
